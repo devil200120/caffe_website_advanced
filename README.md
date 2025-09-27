@@ -1,16 +1,90 @@
-# React + Vite
+# Café Elite - Advanced Coffee Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium coffee website built with React and Vite, featuring comprehensive animations, Lottie integrations, and modern UI components.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Beautiful Animations**: Stretchable text effects, Framer Motion animations
+- ☕ **Coffee-Themed Design**: Premium coffee shop aesthetic with coffee-themed animations
+- 📱 **Responsive Design**: Mobile-first approach with Tailwind CSS
+- 🎭 **Lottie Animations**: Interactive loading screens and visual elements
+- 🚀 **Performance Optimized**: Built with Vite for fast development and builds
+- 💫 **Modern UI Components**: Advanced galleries, testimonials, and contact forms
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 18 + Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion + Lottie
+- **Icons**: Lucide React
+- **Build Tool**: Vite with HMR
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/devil200120/caffe_website_advanced.git
+   cd caffe_website_advanced
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── Hero.jsx        # Hero section with animations
+│   ├── About.jsx       # About section
+│   ├── Menu.jsx        # Coffee menu
+│   ├── LoadingScreen.jsx # Lottie loading animation
+│   └── StretchableText.jsx # Text hover effects
+├── hooks/              # Custom React hooks
+├── data/              # Static data and configurations
+└── assets/            # Static assets and images
+```
+
+## Key Components
+
+- **LoadingScreen**: Animated coffee-themed loading screen with Lottie
+- **StretchableText**: Interactive text components with hover animations
+- **AdvancedGallery**: Photo gallery with book-style viewing
+- **Hero**: Dynamic hero section with multiple slides
+- **BookMenu**: Interactive menu with book-like pagination
+
+## Development Tools
+
+This template uses:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) for Fast Refresh
+- ESLint for code quality
+- Tailwind CSS for styling
+- Framer Motion for animations
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+**Café Elite** - Where every cup tells a story ☕
